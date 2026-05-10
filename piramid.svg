@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="156.5497 -146 1124.2503 957.7" width="1124.2503" height="957.7">
+  <defs/>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-09-27 14:54:18 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke-opacity="1" stroke-dasharray="none" fill="none" stroke="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_3">
+        <title>Canvas_1: Layer 1</title>
+        <g id="Group_12">
+          <title>Graphic_49</title>
+          <g id="Graphic_13">
+            <path d="M 718.9 -146 L 157 811.7 L 1280.8 811.7 Z" fill="#0164ff"/>
+          </g>
+        </g>
+        <g id="Group_10">
+          <title>Graphic_50</title>
+          <g id="Graphic_11">
+            <path d="M 1139.35 570.63 L 718.9 -146 L 298.44 570.63 Z" fill="#f15a45"/>
+          </g>
+        </g>
+        <g id="Group_8">
+          <title>Line_51</title>
+          <g id="Line_9">
+            <line x1="294" y1="571.5541" x2="1143.4" y2="571.5541" stroke="white" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2.48"/>
+          </g>
+        </g>
+        <g id="Line_7">
+          <line x1="352.89775" y1="333.42246" x2="1002.4064" y2="333.42246" stroke="white" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2.48"/>
+        </g>
+        <g id="Group_4">
+          <title>Line_53</title>
+          <g id="Line_5">
+            <line x1="559.8244" y1="94.04" x2="868.4887" y2="94.04" stroke="white" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2.48"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Canvas_1: Layer 3">
+      <title>Layer 3</title>
+      <g id="Graphic_15">
+        <path d="M 814.7799 -111.35159 L 1126.6206 420.168 L 1070.9169 452.8492 L 759.0762 -78.67041 Z" fill="white"/>
+        <path d="M 814.7799 -111.35159 L 1126.6206 420.168 L 1070.9169 452.8492 L 759.0762 -78.67041 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_16">
+        <path d="M 156.5497 684.9212 L 624.0576 -111.92686 L 679.7613 -79.24568 L 212.25342 717.6024 Z" fill="white"/>
+        <path d="M 156.5497 684.9212 L 624.0576 -111.92686 L 679.7613 -79.24568 L 212.25342 717.6024 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+      <g id="Graphic_17">
+        <path d="M 1108.1334 422.0286 L 1238.3397 643.9599 L 1197.3858 667.9874 L 1067.1794 446.05615 Z" fill="white"/>
+        <path d="M 1108.1334 422.0286 L 1238.3397 643.9599 L 1197.3858 667.9874 L 1067.1794 446.05615 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
