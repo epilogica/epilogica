@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" ,shrink-to-fit="no"">
+    <meta name="description" content="Epilogica">
+    <meta name="format-detection" content="telephone=no">
+    <title>Epilogica</title>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+     
+        ym(41466844, "init", {
+             clickmap:true,
+             trackLinks:true,
+             accurateTrackBounce:true,
+             webvisor:true
+        });
+     </script>
+     <noscript><div><img src="https://mc.yandex.ru/watch/41466844" style="position:absolute; left:-9999px;" alt></div></noscript>
+     <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <a name="top"></a>
+    <div class="top-container">
+        <div id="header" class="site-header">
+            <div class="header-logo">
+                <a href="#" class="logo hidden-phone">
+                    <img class="logo" src="img/epilogica.png" alt="Epilogica">
+                </a>
+            </div>
+            <div id="header-content" class="header-body">
+                    <a href="#solutions" class="menu-item">Solutions</a>
+                    <a href="#company" class="menu-item">Company</a>
+                    <a href="#contacts" class="menu-item">Contacts</a>
+                    <a class="menu-item" href="ru/index.html">Rus</a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="show_menu()">
+                    <img class="menu_arrow" src="img/menu_arrow.png">
+                </button>
+                <div id="menu" class="dropdown-content">
+                    <a class="dropdown-item menu-item" href="#solutions">Solutions</a>
+                    <a class="dropdown-item menu-item" href="#company">Company</a>
+                    <a class="dropdown-item menu-item" href="#contacts">Contacts</a>
+                    <a class="dropdown-item menu-item" href="javascript:show_login()">>Login</a>
+                    <a class="dropdown-item menu-item" href="ru/index.html">Rus</a>
+                </div>
+            </div>
+        </div>
+        <div id="login" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">Login</div>
+                <div class="input-row"><div class="input-label">User Name</div><div class="input-col">
+                    <input id="user-name" type="text" class="input" placeholder="User Name"></div></div>
+                <div class="input-row"><div class="input-label">Password</div><div class="input-col">
+                    <input type="password" id="password" class="input" placeholder="Password"></div></div>
+                <div class="error-placeholder">
+                    <span id="login-error" class="error-text">Invalid user name or password</span>
+                    <span id="login-required" class="error-text">User name is mandatory</span>
+                    <span id="password-required" class="error-text">Password is mandatory</span>
+                </div>
+                <div class="modal-footer"><button class="button" onclick="login()">Login</button><button class="button" onclick="close_login()">Cancel</button></div>
+            </div>
+        </div>
+        <div class="title">Epidemiological Information System «EpiS»</div>
+        <div class="features">
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>National Information System</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Built for Epidemiologists and Agencies</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Strengthens Combat with Infectious Diseases and Epidemics</span>
+            </div>
+        </div>        
+        <div class="features">
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Built by Epidemiological Surveillance Experts</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Powered by Artificial Intelligence</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Meets Modern Requirements</span>
+            </div>
+        </div>
+        <div class="blocks">
+            <a name="solutions"></a>
+            <div class="block-center">
+                <picture> <img src="img/tree-owl.svg" class="tree-picture"></picture>
+                <div class="ai-block">
+                    <span class="blue">Block AI</span>
+                    <span class="violet">deep neural networks</span>
+                </div>
+                <div class="op-block">
+                    <span class="blue">Operation Block</span>
+                    <span class="violet">IDS + new modules</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="functions top-container">
+        <picture> <img src="img/piramid.svg" class="piramid-picture"></picture>
+        <div class="piramid-text federal" lang="en">Federal</div>
+        <div class="piramid-text regional" lang="en">Regional</div>
+        <div class="piramid-text local" lang="en"><span>District</span><br>
+            <span class="orange-gray">Epidemiological Agency</span></div>
+        <div class="piramid-text private" lang="en"><span>State / Private</span><br>
+            <span class="blue-gray">Medical Organizations</span></div>
+        <div class="rotated-text up violet" lang="en"><span>Real-time Data</span> <img src="img/arrow.png" class="arrow"></div>
+        <div class="rotated-text down violet" lang="en"><span>Feedback</span> <img src="img/arrow.png" class="arrow"></div>
+        <div class="func-header">
+            <div><div class="func-cell square-cell"><span>IDS Base System</span></div><div class="vl shifted"></div></div>
+            <div><div class="func-cell round-cell"><span>Med. Org. Integration</span></div><div class="vl shifted"></div></div>
+            <div><div class="func-cell round-cell"><span>Big Data Analysis</span></div><div class="vl shifted"></div></div>
+            <div><div class="func-cell round-cell"><span>Emergency Operations Center</span></div><div class="vl shifted"></div></div>
+            <div class="pic-cell"> <div class="img-container"><img src="img/epi_tree.gif" class="func-pic"></div> <div>Operations Block</div></div>
+            <div class="pic-cell"> <div class="img-container"><img src="img/owl-eggplant.gif" class="func-pic"></div> <div>AI<br>Block</div></div>
+            <div><div class="func-cell round-cell"><span>Epidemics Analysis and Prediction</span></div><div class="vl shifted"></div></div>
+            <div><div class="func-cell round-cell"><span>Risk Evaluation and Analysis</span></div><div class="vl shifted"></div></div>
+            <div><div class="func-cell round-cell"><span>Early Outbreak Detection</span></div><div class="vl shifted"></div></div>
+        </div>
+        <div class="func-space">
+        </div>
+        <div class="piramid">
+            <div class="func-row">
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="line-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="pic-cell"></div>
+                <div class="pic-cell"></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+            </div>
+            <div class="func-row">
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="line-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="pic-cell"></div>
+                <div class="pic-cell"></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+            </div>
+            <div class="func-row">
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="line-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="pic-cell"></div>
+                <div class="pic-cell"></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+            </div>
+            <div class="func-row">
+                <div class="line-cell"></div>
+                <div class="bullet-cell"><div class="vl"></div></div>
+                <div class="patient-cell"> 
+                    <img src="img/patient.png" class="patient-pic">
+                    <div class="patient-text">Patient</div>
+                </div>
+
+                <div class="pic-cell"></div>
+                <div class="pic-cell"></div>
+                <div class="line-cell"></div>
+                <div class="line-cell"></div>
+                <div class="line-cell"></div>
+            </div>
+        </div>
+    </div>    
+    <table class="rotated-header functions-mob">
+        <thead>
+            <tr>
+            <th class="white-border"><div class="header-container purple-light-bg left-cell-header">
+                <picture> <img src="img/tree-owl.svg" class="small-tree"></picture>
+            </div></th>
+            <th><div class="header-container orange-bg"><div class="rotate">
+                <span>Federal</span>
+            <th><div class="header-container orange-bg"><div class="rotate">
+                <span>Regional</span>
+            </div></div></th>
+            <th><div class="header-container orange-bg">
+                <div class="rotate">
+                    <span>District</span><br>
+                    <span class="orange-gray">Epidemiological Agency</span>
+                </div>
+            </div></th>
+            <th><div class="header-container blue-bg">
+                <div class="rotate">
+                    <span>State / Private</span><br>
+                    <span class="blue-gray">Medical Organizations</span>
+                </div>
+            </div>
+            </th>
+            </div></div></th></tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td><div class="purple-light-bg left-cell footer-container"></div></td>
+            <td class="r-border"><div class="footer-container"></div></td>
+            <td class="r-border"><div class="footer-container"></div></td>
+            <td class="r-border"><div class="footer-container"></div></td>
+            <td class="r-border"><div class="footer-container"></div></td>
+        </tr>         
+        <tr>
+            <td><div class="purple-light-bg left-cell">
+                <div class="func-cell square-cell">
+                    <span>IDS Base System</span>
+                </div>
+                <div class="frame top"></div>
+                <div class="vert-text top">
+                    <span>Operations Block</span>
+                </div>
+            </div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+        </tr>
+        <tr>
+            <td><div class="purple-light-bg left-cell"><div class="func-cell round-cell">
+                <span>Med. Org. Integration</span>
+            </div></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+        </tr>
+        <tr>
+            <td><div class="purple-light-bg left-cell"><div class="func-cell round-cell">
+                <span>Big Data Analysis</span>
+            </div></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+        </tr>  
+        <tr>
+            <td><div class="purple-light-bg left-cell"><div class="func-cell round-cell">
+                <span>Emergency Operations Center</span>
+            </div></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+        </tr> 
+        <tr>
+            <td><div class="purple-light-bg left-cell"><div class="func-cell round-cell">
+                <span>Epidemics Analysis and Prediction</span>
+            </div>
+                <div class="frame bottom"></div>
+                <div class="vert-text bottom">
+                    <span>AI Block</span>
+                </div>
+            </div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+        </tr> 
+        <tr>
+            <td><div class="purple-light-bg left-cell"><div class="func-cell round-cell">
+                <span>Risk Evaluation and Analysis</span>
+            </div></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+        </tr> 
+        <tr>
+            <td><div class="purple-light-bg left-cell"><div class="func-cell round-cell">
+                <span>Early Outbreak Detection</span>
+            </div></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="bullet-cell"></div><div class="hl"></div></td>
+            <td class="r-border"><div class="empty-cell"></div><div class="hl"></div></td>
+        </tr>                                        
+        <tr>
+            <td><div class="purple-light-bg left-cell footer-container"></div></td>
+            <td class="r-border"><div class="footer-container orange-bg"></div></td>
+            <td class="r-border"><div class="footer-container orange-bg"></div></td>
+            <td class="r-border"><div class="footer-container orange-bg"></div></td>
+            <td class="r-border"><div class="footer-container blue-bg"></div></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div class="piramid-container">
+                    <picture> <img src="img/piramid.svg" class="piramid-picture"></picture>
+                    <div class="piramid-text federal" lang="en">Federal</div>
+                    <div class="piramid-text regional" lang="en">Regional</div>
+                    <div class="piramid-text local" lang="en"><span>District</span><br>
+                        <span class="orange-gray">Epidemiological Agency</span></div>
+                    <div class="piramid-text private" lang="en"><span>State / Private</span><br>
+                        <span class="blue-gray">Medical Organizations</span></div>
+                    <div class="rotated-text up violet" lang="en"><span>Real-time Data</span> <img src="img/arrow.png" class="arrow"></div>
+                    <div class="rotated-text down violet" lang="en"><span>Feedback</span><img src="img/arrow.png" class="arrow"></div>
+                </div>
+                <div>
+                    <img src="img/patient-m.png" class="patient-pic">
+                </div>
+            
+            </td>
+        </tr>      
+    </tbody>
+    </table>
+    <div id="map-title" class="top-container">
+        <div class="title">EpiS: Continuous Improvement based on Implementation Experience</div>
+    </div>
+    <div id="map" class="top-container">
+        <div class="map-container purple-light-bg">
+            <div class="map-div">
+                <img src="img/map-m.png" class="map-pic">
+            </div>
+            <div id="map-table">
+            <div id="epis-table">
+                <div class="year-col">
+                    <span class="vert-text">2016 - 2020</span>
+                </div>
+                <div>
+                    <div class="epis-location">
+                        <img src="img/tree-owl.svg" class="tree-owl-pic">
+                        <img src="img/piramid-region-private.png" class="piramid-pic">
+                        <div>Amur region</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-owl.svg" class="tree-owl-pic">
+                        <img src="img/piramid-region-private.png" class="piramid-pic">
+                        <div>Sakha (Yakutia)</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-violet.svg" class="tree-pic">
+                        <img src="img/piramid-region-local.png" class="piramid-pic">
+                        <div>Krasnodar Krai</div>
+                    </div>                
+                    <div class="epis-location">
+                        <span class="empty-pic"></span>
+                        <img src="img/piramid-empty.png" class="piramid-pic">
+                        <div>Moscow Region</div>
+                    </div>                
+                </div>
+            </div>
+            <div id="eidss-table">
+                <div class="year-col">
+                    <span class="vert-text">2005 - 2016</span>
+                </div>
+                <div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Kazakhstan</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Georgia</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Armenia</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Azerbaijan</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Ukraine</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Iraq</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-federal-local.png" class="piramid-pic">
+                        <div>Thailand</div>
+                    </div>
+                    <div class="epis-location">
+                        <img src="img/tree-gray.svg" class="tree-pic">
+                        <img src="img/piramid-empty.png" class="piramid-pic">
+                        <div>Tanzania</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="digits" class="top-container">
+        <div id="participation" class="digits-l purple-light-bg">
+             <div class="col-wide">
+                <span>Participation of</span>   
+                <span class="big-text">&gt;250</span>   
+                <span>Epidemiologists, Scientists, Officials, Medical Experts from</span>
+            </div>
+            <div class="hl"></div>
+            <div class="col-left">
+                 <span class="big-text narrow-text">12</span>
+                <span>Countries</span>
+            </div>
+            <div class="col-right">
+                 <span class="big-text narrow-text">15</span>
+                 <span>Universities and Research Centers</span> 
+            </div>
+            <div class="col-wide">
+                 <span class="big-text">20</span>
+                 <span>Ministries and Agencies</span> 
+            </div>
+        </div>
+        <div class="digits-r">
+            <div class="digits-cell purple-light-bg">
+                <span>Implemented in</span>   
+                <span class="big-text">8</span>   
+                <span>Countries</span>
+            </div>
+            <div class="digits-cell purple-light-bg">
+                <span>Monitoring of</span>   
+                <span class="big-text">1,000+</span>   
+                <span>Diseases</span>
+            </div>
+            <div class="digits-cell purple-light-bg">
+                <span>Available in</span>   
+                <span class="big-text">9</span>   
+                <span>Languages</span>
+            </div>
+            <div class="dbl-cell purple-light-bg">
+                <span class="big-text">$ 50,000,000</span>   
+                <span>Invested</span>
+            </div>
+            <div class="digits-cell purple-light-bg">
+                <span>Integration w/</span>   
+                <span class="big-text">50</span>   
+                <span>Large Hospitals</span>
+            </div>
+            <div class="digits-cell purple-light-bg">
+                <span class="big-text narrow-text">16</span>   
+                <span>Years</span>
+            </div>
+            <div class="digits-cell purple-light-bg">
+                <span class="big-text">6,000</span>   
+                <span>Users</span>
+            </div>
+            <div class="digits-cell purple-light-bg">
+                <span class="big-text">950</span>   
+                <span>Sites</span>
+            </div>
+        </div>
+    </div>
+    <div class="top-container">
+        <div class="title">Expertise</div>
+        <div>
+            <img src="img/expertize_m.png" alt="expertize" class="experize-pic-m">
+            <img src="img/expertize.jpg" alt="expertize" class="experize-pic">
+        </div>
+        <a name="company"></a>
+        <div class="title">Company</div>
+        <div class="subtitle">Health and Economy Protection against Epidemics</div>
+        <div class="title">Founders</div>
+        <div class="founders">
+            <img src="img/founder1.png" class="founder-pic">
+            <img src="img/founder2.png" class="founder-pic">
+            <img src="img/founder3.png" class="founder-pic">
+            <img src="img/founder4.png" class="founder-pic">
+            <img src="img/founder5.png" class="founder-pic">
+            <img src="img/founder6.png" class="founder-pic">
+        </div>  
+        <div class="features">
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Experts in IT, AI and Epidemiology</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Created open-source IDS epidemiological information system</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Implemented epidemiological systems in 7 countries</span>
+            </div>
+        </div>
+        <div class="features">
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>Published 40+ scientific papers on IT, AI and Epidemiology</span>
+            </div>
+            <div class="feature-item">
+                <span><img src="img/bullet.png" id="bullet"></span> 
+                <span>International Organizations Collaboration: WHO, FAO</span>
+            </div>
+
+        </div>        
+
+    </div>    
+    <div class="contacts">
+        <a name="contacts"></a>
+        <div class="top-container">
+        <div class="title">Contacts</div>
+        <div class="address">121205, Russia, Moscow,<br/>«Skolkovo» Innovation Center Park, Nobel<br/>str., 7, 3/82/2</div>
+        <div>
+            <span class="phone">+7 (495) 005-8764</span>
+            <span class="email">info@epilogica.ru</span>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div><a href="#top"><img src="img/up-arrow.png" class="arrow"></a></div>
+        <div>2016-2020 © Epilogica</div>
+        <div><img src="img/epilogica.png" class="logo"></div>
+        <!--div><img src="img/biomed.png" class="logo"></div>-->
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
+    <script src="js/scripts.js"></script> 
+</body>
+</html>
