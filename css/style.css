@@ -250,7 +250,7 @@ span.menu-item:hover{
     text-decoration: underline;
 
 }
-#bullet{
+.bullet{
     height: 50px;
 }
 .features{
@@ -1062,7 +1062,7 @@ th.rotate > div > span {
     .functions-mob{
         display: none;
     }
-    #bullet{
+    .bullet{
         height: 30px;
     }
     .feature-item{
@@ -1304,7 +1304,7 @@ th.rotate > div > span {
         line-height: 1.1em;
         }
         
-    #bullet{
+    .bullet{
         height: 32px;
         padding-right: 40px;
     }
@@ -1642,7 +1642,7 @@ th.rotate > div > span {
         padding-top: 0;     
         }
         
-    #bullet{
+    .bullet{
         height: 20px;
         padding-right: 20px;
     }
